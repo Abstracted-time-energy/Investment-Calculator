@@ -9,9 +9,21 @@ Welcome to our Investment Strategy Comparison Calculator. This tool is designed 
 3. Investing in a Term Deposit
 4. Using a loan to invest in Bitcoin (optional scenario)
 
+## How to Use
+
+1. Visit the GitHub Pages URL: [Your GitHub Pages URL here]
+2. Use the calculator directly in your web browser, or
+3. To run locally:
+   * Right-click on the page and select "Save As"
+   * Save the HTML file to your local computer
+   * Open the saved HTML file with your web browser
+
+## Security and Privacy
+
+When run locally, this calculator performs all calculations on your device. No data is sent over the internet, ensuring your financial information remains private.
+
 ## Key Features and Assumptions
 
-- The calculator uses a single initial investment amount and term for all scenarios (except the optional Loan4Bitcoin).
 - It factors in inflation for costs and some investment returns.
 - Capital gains tax can be optionally applied to profits.
 - The House scenario assumes a fixed mortgage rate, includes annual costs (insurance, rates, maintenance), and applies a user-defined appreciation rate.
@@ -34,13 +46,23 @@ Welcome to our Investment Strategy Comparison Calculator. This tool is designed 
 ## Additional Considerations
 
 1. Inflation affects all costs - insurance, rates and rent.
-2. Inflation affects end purchasing power of House and Term deposit, but does not affect Bitcoin's end purchasing power as Bitcoin is DEFLATIONARY and has limited supply.
+2. Inflation affects end purchasing power of House and Term deposit, but does not affect Bitcoin's end purchasing power as Bitcoin is argued to be deflationary and has limited supply.
 3. **Bitcoin's current Compounded Annual Growth Rate is around 62% over the last 10 years**, 48% over the last 5 years ([source](https://www.calculate.co.nz/cagr-calculator.php)). This is not expected to continue at this rate, but it is impossible to predict, which is why the calculator allows you to choose the CAGR for both House and Bitcoin.
 4. You have to believe in Bitcoin to believe this calculator - so do your homework.
 5. **Read the Bitcoin Whitepaper**: [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
 6. Ask yourself, "What is money?"
 7. Watch and listen to people who have been thinking about this deeply:
 
+
+## Help and Support
+
+If you encounter any issues while using the calculator or have questions about its functionality, please don't hesitate to reach out for support:
+
+1. Open an issue on this GitHub repository
+2. Contact us via [Your preferred contact method, e.g., email address]
+
+We welcome feedback and suggestions for improving the calculator!
+
 ## Disclaimer
 
-This tool is for educational and comparative purposes only. Always consult with financial professionals before making investment decisions.
+This tool is for educational and comparative purposes only.

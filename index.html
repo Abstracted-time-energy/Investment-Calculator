@@ -1083,8 +1083,8 @@ function initializeEventListeners() {
         addListener(id, 'change', toggleScenarioVisibility);
     });
 
-    // Setup input syncing
-        const allInputIds = [
+  // Setup input syncing
+    const allInputIds = [
         'houseValue', 'mortgageRate', 'annualInsurance',
         'annualRates', 'annualMaintenance', 'bitcoinPrice', 'weeklyRent', 'houseCagr', 'bitcoinCagr',
         'termDepositRate', 'termDepositTaxRate', 'capitalGainsTax', 'inflationRate',
@@ -1093,6 +1093,7 @@ function initializeEventListeners() {
         'bitcoinLoanRate', 'bitcoinLoanTerm', 'termDepositInitialInvestment', 'termDepositTerm'
     ];
     allInputIds.forEach(setupSync);
+
 
     // Setup other event listeners
     addListener('applyTax', 'change', calculate);

@@ -1067,8 +1067,8 @@ function initializeEventListeners() {
     function setupSync(id) {
         syncInputs(id + 'Slider', id);
     }
-
-    // Setup Bitcoin investment type change
+   
+	// Setup Bitcoin investment type change
     addListener('bitcoinInvestmentType', 'change', function() {
         toggleBitcoinInputs();
         const isDCA = this.value === 'dca';
